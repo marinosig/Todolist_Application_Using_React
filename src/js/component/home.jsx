@@ -39,7 +39,7 @@ const listoftasks = arrayoflist?.map((task, index) => {
 			className="list-group-item d-flex justify-content-between" 
 			style={{liststyle: "none", height: ""}}
 			>
-				<span className="p-2 text-left">{task}{index}</span>
+				<span className="p-2 text-left">{task}</span>
 			<span 
 				className="p-2 text-danger" 
 				onClick={() => {
